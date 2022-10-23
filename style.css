@@ -1,1 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-size: 62.5%;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+}
+
+header{
+  display: flex;
+  width: 98%;
+  height: 6rem;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.category{
+  display: flex;
+  gap: 3.6rem;
+}
+
+.category li{
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+
+.stores{
+  display: flex;
+  gap: 3.9rem;
+}
+
+.stores li{
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+
+.user{
+  display: flex;
+  gap: 2rem;
+}
+
+main{
+  background: url("./assets/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 74rem;
+  width: 100vw;  
+}
+
+.main-info{
+  margin-top: 50.4rem;
+  margin-left: 5.4rem;
+}
+
+.main-info h1{
+  font-weight: 700;
+  font-size: 4.8rem;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.main-info p{
+  margin-top: 101;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.main-buttons{
+  margin-top: 2.4rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.main-buttons button{
+  width: 18rem;
+  height: 4.8rem;
+  background: #FFFFFF;
+  border-radius: 2px;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+
+.section-one{
+  width: 86%;
+  height: 77.8rem;
+}
+
+.section-one h2{
+  margin-top: 12rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-one-category{
+  display: flex;
+  gap: 13.2rem;
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+
+.section-one-category li{
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #212A2F;
+}
+
+.section-one hr{
+  margin-top: 1.2rem;
+}
