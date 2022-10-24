@@ -108,6 +108,8 @@ main{
   border: none;
 }
 
+/* SECTION ONE */
+
 .section-one{
   width: 86%;
   height: 77.8rem;
@@ -277,4 +279,137 @@ main{
   color: #FFFFFF;
   border: none;
 }
+
+/* SECTION THREE */
+
+.section-three{
+  margin-top: 11.9rem;
+  width: 86%;
+}
+
+.section-three h2{
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-three-gallery{
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.sec-three-gallery-items h3{
+  margin-top: 1.7rem;
+  margin-left: 1.8rem;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-three-gallery-items p{
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+/* SECTION FOUR */
+.section-four{
+  margin-top: 13.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-four img{
+  width: 100%;
+}
+
+.section-four h2{
+  margin-top: 4.4rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-four p{
+  max-width: 65.5rem;
+  margin-top: 2.2rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-four button{
+  margin-top: 2.6rem;
+  width: 38.4rem;
+  height: 4.8rem;
+  background: #212A2F;
+  border: none;
+  border-radius: 2px;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+/* SECTION FIVE */
+
+.section-five{
+  margin-top: 11.9rem;
+  width: 86%;
+}
+
+.section-five h2{
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-five-gallery{
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.4rem;  
+}
+
+.sec-five-gallery-items h3{
+  margin-top: 1.7rem;
+  margin-left: 1.8rem;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-five-gallery-items p{
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-five-gallery-items img{
+  width: 39.6rem;
+  height: 39.6rem;
+  background: #F5F5F5;
+}
+
 
