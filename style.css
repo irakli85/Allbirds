@@ -195,4 +195,36 @@ main{
   background-size: cover;
 }
 
+.section-one-cards h3{
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+  margin-top: 1.7rem;
+  margin-left: 3rem;
+}
+
+.line-two{
+  background: #D3D4D5;
+  height: 1px;
+  width: 84%;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 8%;
+}
+
+.short-info{
+  display: flex;
+  align-items: center;
+  margin-top: 1.6rem;
+  margin-left: 3rem;
+  gap: 1.2rem;
+}
+
+.short-info span{
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 0.4px;
+  color: #212A2F;
+}
 
