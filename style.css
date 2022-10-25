@@ -412,4 +412,252 @@ main{
   background: #F5F5F5;
 }
 
+/* SECTION SIX */
+
+.section-six{
+  margin-top: 13.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-six img{
+  width: 100%;
+}
+
+.section-six h2{
+  max-width: 65rem;
+  margin-top: 5.2rem;
+  font-weight: 700;
+  font-size: 3.2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-six p{
+  max-width: 65.5rem;
+  margin-top: 1.6rem;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-six button{
+  margin-top: 2.6rem;
+  width: 38.4rem;
+  height: 4.8rem;
+  background: #212A2F;
+  border: none;
+  border-radius: 2px;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+/* SECTION SEVEN */
+
+.section-seven{
+  margin-top: 11.9rem;
+  width: 86%;
+}
+
+.section-seven h2{
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-seven-gallery{
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.4rem;  
+}
+
+.sec-seven-gallery-items h3{
+  margin-top: 1.7rem;
+  margin-left: 1.8rem;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-seven-gallery-items p{
+  max-width: 35.5rem;
+  margin-top: 1rem;
+  margin-left: 1.8rem;
+  margin-right: 1.8rem;  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-seven-gallery-items img{
+  width: 39.6rem;
+  height: 39.6rem;
+  background: #F5F5F5;
+}
+
+/* SECTION EIGHT */
+
+.section-eight{
+  margin-top: 13.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-eight h2{
+  margin-top: 4.7rem;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.sec-eight-info{
+  margin-top: 3.4rem;
+  max-width: 82.3rem;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  color: #212A2F;
+}
+
+.section-eight form{
+  margin-top: 5rem;
+}
+
+.section-eight input{
+  width: 58.8rem;
+  height: 4.8rem;
+  border: none;
+  border-bottom: solid 2px black;
+}
+
+#email::placeholder{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.22);
+  padding-left: 5rem;
+}
+
+.section-eight button{
+  margin-left: 1.2rem;
+  width: 11.1rem;
+  height: 4.8rem;
+  background: #212A2F;
+  border: none;
+
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.sec-eight-note{
+  margin-top: 2.4rem;
+  font-weight: 400;
+  font-size: 14px;
+  color: #74797C;
+}
+
+/* FOOTER */
+footer{
+  margin-top: 4.8rem;
+  width: 100%;
+  height: 82.1rem;
+  background: #212A2F;
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  /* align-items: center; */
+}
+
+.footer-nav{
+  width: 86%;
+  margin-top: 7.2rem;
+  margin-left: 4%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20rem;
+}
+
+.footer-nav h3{
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-nav li{
+  font-weight: 400;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-nav ul{
+  margin-top: 2.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.footer-flock{
+  width: 86%;
+  margin-top: 8.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-flock h3{
+  margin-left: 4%;
+  font-weight: 400;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer-img{
+  display: flex;
+  gap: 2.4rem;
+}
+
+.footer-exclusive{
+  margin-top: 2.1rem;
+  margin-left: 4%;
+  max-width: 29.3rem;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+}
+
+.footer-copyright{
+  margin-top: 12.6rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+
 
